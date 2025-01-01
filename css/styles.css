@@ -237,11 +237,11 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #022adf;
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color: #00d9ff;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11325,9 +11325,14 @@ p.lead {
 
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+}
+
+.courses-subheading{
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 300;
+  font-size: 1.4rem;
 }
 
 #sideNav {
@@ -11432,4 +11437,8 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.fa-projects{
+  font-size: 0.60em;
 }
